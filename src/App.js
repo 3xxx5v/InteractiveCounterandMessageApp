@@ -11,7 +11,7 @@ function App() {
         <h1>{count}</h1>
         
         <p className="goal-text">
-          {count >= 5 ? "Goal Reached!" : "Keep going..."}
+          {count >= 5 ? "Goal Reached!" : "Keep going bro..."}
         </p>
 
         <div className="button-group">
@@ -23,7 +23,7 @@ function App() {
         <div className="input-section">
           <input 
             type="text" 
-            placeholder="Type a message..." 
+            placeholder="Input a message..." 
             onChange={(e) => setText(e.target.value)} 
           />
           <p className="display-text">{text}</p>
